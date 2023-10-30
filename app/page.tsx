@@ -11,6 +11,7 @@ export default async function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-top p-12 bg-blue-900'>
       <div>
+        <div className='text-white'> First Nextjs Project</div>
         <FormPage />
         <Suspense fallback={<p>Loading users...</p>}>
           <UserList />

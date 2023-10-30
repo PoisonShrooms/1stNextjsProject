@@ -32,10 +32,11 @@ function Form() {
 
   return (
     <>
+    <div className='bg-white p-4 rounded-lg drop-shadow-xl '>
       <div className='mb-4'>
         <label
           htmlFor='name'
-          className='inline-block text-white/70 text-sm font-medium mb-2'
+          className='inline-block text-black text-sm font-medium mb-2'
         >
           Name:
         </label>
@@ -52,7 +53,7 @@ function Form() {
       <div className='mb-4'>
         <label
           htmlFor='email'
-          className='inline-block text-white/70 text-sm font-medium mb-2'
+          className='inline-block text-black text-sm font-medium mb-2'
         >
           Email Address:
         </label>
@@ -75,6 +76,7 @@ function Form() {
       >
         {pending ? 'Submitting' : 'Submit'}
       </button>
+      </div>
     </>
   );
 }

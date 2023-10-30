@@ -1,4 +1,4 @@
-import { fetchUsers } from './_actions';
+import { deleteUser, fetchUsers } from './_actions';
 
 export default async function UserList() {
   const users = await fetchUsers();
